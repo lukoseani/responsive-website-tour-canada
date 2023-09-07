@@ -1,0 +1,75 @@
+
+.logo-img{
+  width:40px;
+  height:40px;
+}
+
+
+
+
+
+.content-div{
+  width:100%;
+  background-color:gray;
+  color:white;
+  margin:5px;
+  padding:15px;
+}
+.destinations-title,
+.about-title,
+.contact-title,
+.relax-title{
+  font-size:32px;
+  font-weight:bold;
+  margin-top:10px;
+  margin-bottom:10px;
+  text-align:center;
+}
+.about-desc,
+.feature-desc{
+  background-color:rgb(112, 110, 110);
+  color:white;
+  padding:15px;
+  margin-top:5px;
+}
+.fees-desc,
+.sites-desc{
+  background-color:rgb(166, 163, 163);
+  color:white;
+  padding:15px;
+  margin-bottom:30px;
+  margin-top:5px;
+}
+
+.contact-us-link{
+  color:white;
+  text-decoration:none;
+}
+.vacay-img-container{
+  display:flex;
+  height:500px;
+  width:100%;
+  margin-bottom:5px;
+  
+
+}
+.vacay-img{
+  margin-top:30px;
+  margin-bottom:30px;
+  width:100%;
+  
+  
+}
+.footer-div{
+  
+  background-color:black;
+  color:white;
+  bottom:0;
+  width:100%;
+  text-align:center;
+  padding:10px;
+  
+}
+.email-link{
+  color:white;
+}

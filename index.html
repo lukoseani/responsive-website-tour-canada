@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bild Webpage using Bootstrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/bootstrapweb.css">
+    
+  </head>
+  <body>
+    <!--NavBar-->
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class= "logo-img" src="img/logo.jpg" alt="logo" ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destinations">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!--Carousel-->
+
+
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/lighthouse.jpg" alt= "lighthouse" class="d-block w-100" >
+        </div>
+        <div class="carousel-item">
+          <img src="img/geese.jpg" alt="geese" class="d-block w-100" >
+        </div>
+        <div class="carousel-item">
+          <img src="img/mountains.jpg" alt = "mountains" class="d-block w-100" >
+        </div>
+        <div class="carousel-item">
+          <img src="img/falls.jpg" alt = "falls" class="d-block w-100">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Main Container-->
+    <div class="container">
+      <h1 class="text-center p-5 mb-5 mt-5">Tour Canada Today!</h1>
+      <div class="content-div">
+        <p>
+          At Tours Canada, we invite you to embark on a journey like no other, exploring the breathtaking landscapes, rich cultural tapestry, and boundless adventures that Canada has to offer. Our mission is simple: to connect travelers with the magic of this vast and diverse nation, where each experience is a new chapter in an epic story waiting to be told.
+          From the rugged peaks of the Rocky Mountains to the pristine shores of the Atlantic, from vibrant urban centers to remote wilderness escapes, Canada is a land of boundless beauty and boundless possibilities. Whether you seek the thrill of outdoor adventures, the serenity of nature, or the vibrant energy of city life, we have carefully curated an array of tours and experiences to suit every traveler's desires.<br>
+          
+        </p>
+        <button type="button" class="btn btn-primary btn-lg">Book Your Trip Now</button>
+      </div>
+
+
+      <h2 id="destinations" class="destinations-title">POPULAR DESTINATIONS</h2>
+      
+
+      <div class="row">
+        <div class="col">
+         <!--Card1-->
+
+         <div class="card">
+            <img src="img/mountains.jpg" class="card-img-top" alt="mountains">
+            <div class="card-body">
+              <h5 class="card-title">Banff</h5>
+              <p class="card-text js-banff-body">Photography Paradise,
+                Star Gazing, Winter Wonderland etc.
+                </p>
+              <a class="btn btn-primary js-read-more-banff">Read More</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+          <!--Card2-->
+ 
+          <div class="card">
+             <img src="img/lighthouse-2.jpg" class="card-img-top" alt="lighthouse">
+             <div class="card-body">
+               <h5 class="card-title">Peggy's Cove</h5>
+               <p class="card-text js-peggy-body">Scenic Coastal Setting,
+                ,Iconic Lighthouse,
+                Cultural Experiences etc.
+               </p>
+               <a  class="btn btn-primary js-read-more-peggy">Read More</a>
+             </div>
+           </div>
+         </div>
+
+
+         <div class="col">
+          <!--Card3-->
+ 
+          <div class="card">
+             <img src="img/yukon.jpg" class="card-img-top" alt="yukon">
+             <div class="card-body">
+               <h5 class="card-title">Yukon</h5>
+               <p class="card-text js-yukon-body">
+                Breathtaking Landscapes,
+                Rich Indigenous Culture,
+                Outdoor Adventures etc.
+                
+               </p>
+                 <a class="btn btn-primary js-read-more">Read More</a>
+             </div>
+           </div>
+         </div>
+
+       
+
+      </div>
+
+
+
+
+      <!--About-->
+      <h2 id="about" class="about-title">About</h2>
+      <div class="row">
+        <div class="col-6">
+          <div class="about-desc">
+            <h2>Rates</h2>
+            <p>Our team of passionate explorers and local experts are your guides to the heart and soul of Canada. We know the hidden gems, the best-kept secrets, and the stories that make each destination come alive.
+
+              Personalized Experiences: We believe that every traveler is unique. That's why we offer customizable itineraries, ensuring that your journey through Canada reflects your individual tastes and preferences.</p>
+          </div>
+
+        </div>
+
+
+
+        <div class="col-6">
+          <div class="fees-desc">
+            <h2>Fees</h2>
+            <p>Ease of Booking: Booking your Canadian adventure is effortless with our user-friendly platform. A few clicks, and you're on your way to discovering the Great White North.
+
+              Customer Satisfaction: We take pride in exceeding our customers' expectations. Read the glowing testimonials from fellow travelers who have ventured with us and experienced the magic of Canada.
+              
+              .</p>
+          </div>
+
+        </div>
+
+
+
+
+        <div class="col-6">
+          <div class="sites-desc">
+            <h2>Popular Sites</h2>
+            <p>Whether you dream of witnessing the Northern Lights in the Yukon, kayaking among whales in British Columbia, savoring culinary delights in Montreal, or exploring the historical sites of Ottawa, Tours Canada is your trusted companion for creating unforgettable memories.
+
+              Join us on a journey that will leave you breathless, inspired, and yearning for more. Explore Canada with Tours Canada today..</p>
+          </div>
+
+        </div>
+
+
+
+        <div class="col-6">
+          <div class="feature-desc">
+            <h2>Features</h2>
+            <p>
+              Our guided tours provide an enriched and hassle-free experience. Trust our seasoned guides to lead you through Canada's iconic sites and hidden treasures. Learn about the history, culture.
+              
+              For the independent explorer, we offer self-drive adventures. Rent a car, follow our expertly designed itineraries, and set out on your own Canadian odyssey. Discover the freedom and flexibility of self-discovery..</p>
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+
+
+
+
+      <!--Contact Us-->
+      <h2 id="contact" class="contact-title">Contact Us</h2>
+
+
+
+      <div class="content-div">
+        <p>
+          We're here to assist you with all your travel inquiries and make your journey with Tours Canada as seamless as possible. Whether you have questions about our tours, need assistance with your booking, or simply want to say hello, we're just a message away.If you're in the area, we'd love to meet you in person. Please feel free to drop by our office during our working hours. Our friendly team will be delighted to assist you face-to-face.Stay informed about the latest travel updates, exclusive offers, and travel inspiration by subscribing to our newsletter. Don't miss out on exciting adventures and incredible experiences!<br>
+          
+        </p>
+        <button type="button" class="btn btn-primary btn-lg "><a class="contact-us-link" href="mailto:abc@def.com">Contact Us For More Information</a></button>
+      </div>
+
+
+      <h2 class="relax-title">Relax in Beautiful Canada</h2>
+      <div class="vacay-img-container">
+        <img class="vacay-img" src="img/vacay.jpg" alt="vacay">
+
+      </div>
+     
+
+     
+    </div>
+
+
+    
+
+    
+
+
+
+
+    <footer class="footer-div">
+      <p>&copy; Tour Canada Today</p>
+      <p><a class="email-link"href="mailto:abc@def.com">Email Us</a></p>
+
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+
+    <script src="tours.js"></script>
+
+
+  </body>
+</html>
